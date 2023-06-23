@@ -1,0 +1,41 @@
+/* selector {
+    property: value;
+} */
+
+/* camel case
+testProgram */
+
+/* snake case
+test_program */
+
+/* kebab case
+test-program */
+
+h1 {
+    color: red;
+    background-color: green;
+}
+
+.imp {
+    background-color: red;
+}
+
+/* #grandParent div {
+    color: blue;
+} */
+
+/* Child selector */
+#grandParent > div {
+    border: 2px solid red;
+}
+
+
+/* adjacent sibling combinator */
+/* #brother1 + div {
+    color: aqua;
+} */
+
+/* genral sibling */
+#brother1 ~ div {
+    color: aqua;
+}

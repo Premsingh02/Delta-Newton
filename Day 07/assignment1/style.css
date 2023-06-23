@@ -1,0 +1,16 @@
+body {
+    line-height: 1.4;
+    font-family: system-ui;
+  }
+
+  li {
+    color: rgb(144, 238, 144);
+  }
+
+  li span {
+    color: black;
+  }
+
+  p::first-line {
+    color: rgb(0, 0, 255);
+  }

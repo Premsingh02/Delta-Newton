@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    flex-basis: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.container div:first-child {
+    order: 1;
+}

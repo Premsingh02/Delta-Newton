@@ -1,0 +1,26 @@
+/* text decoration */
+#text-example {
+    font-family: 'Roboto', sans-serif;
+    color: #FF9566;
+
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: none; */
+
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+}
+
+/* #message {
+    border: 1px solid red;
+    width: 100px;
+    height: 30px;
+    overflow: hidden;
+} */
+
+#align {
+    text-align: justify;
+    width: 200px;
+}
+

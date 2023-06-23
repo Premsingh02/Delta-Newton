@@ -1,0 +1,35 @@
+#container {
+    display: flex;
+
+}
+
+.box {
+    background-color: red;
+    border: 1px solid black;
+}
+
+#div1 {
+    flex-basis: 300px;
+    /* width: 1000px; */
+    flex-grow: 2;
+    /* flex-shrink: 1; */
+}
+
+#div2 {
+    flex-grow: 1;
+}
+
+#div3 {
+    flex-grow: 1;
+}
+
+.content-1 {
+    flex: 1;
+    /* flex: flex-grow flex-shrink flex-basis */
+
+}
+
+.content-2 {
+    flex: 1;
+
+}

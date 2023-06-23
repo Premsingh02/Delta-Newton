@@ -1,0 +1,17 @@
+body {
+    font-size: 30px;
+}
+
+#box {
+    background-color: red;
+    /* absolute units */
+    /* width: 100px; */
+    /* width: 100cm; */
+    /* height: 100px; */
+    width: 50%;
+    font-size: 10px;
+}
+
+#box div {
+    font-size: 2rem;
+}

@@ -1,0 +1,15 @@
+ol>li:nth-of-type(odd) {
+    color: brown;
+}
+
+ol>li:nth-child(5n) {
+    color: #0000ff;
+}
+
+ol>li:nth-of-type(even){
+    color: green;
+}
+
+ul>li {
+    color: blueviolet;
+}
