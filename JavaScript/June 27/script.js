@@ -25,3 +25,21 @@
 // }
 
 // a();
+
+// for of loops
+// const arr = [1,3,4,5];
+
+// for(let value of arr) {
+//     console.log(value);
+// }
+
+// objects
+// const obj = {
+//     name: "raju",
+//     age: 34,
+// }
+
+// for (let a in obj){
+//     console.log(a);
+// }
+
