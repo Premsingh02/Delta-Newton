@@ -15,3 +15,11 @@ let c = "test3";
 const fun2 = ()=>{
     console.log("this is another way of creating functions");
 }
+
+// default value
+function add(a=0,b=0){
+    console.log(a+b);
+}
+
+add(1)
+
