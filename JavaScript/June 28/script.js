@@ -20,6 +20,6 @@ const fun2 = ()=>{
 function add(a=0,b=0){
     console.log(a+b);
 }
-
+ 
 add(1)
 
