@@ -15,26 +15,40 @@
 
 // you can also return a function
 
-function robot(instruction) {
-    let someJob = null;
-    switch (instruction) {
-        case 1:
-            someJob = function () {
-                console.log("say hi");
-            }
-            break;
-        case 2:
-            someJob = function () {
-                console.log("say bye");
-            }
-            break;
-    }
-    return someJob;
+// function robot(instruction) {
+//     let someJob = null;
+//     switch (instruction) {
+//         case 1:
+//             someJob = function () {
+//                 console.log("say hi");
+//             }
+//             break;
+//         case 2:
+//             someJob = function () {
+//                 console.log("say bye");
+//             }
+//             break;
+//     }
+//     return someJob;
+// }
+
+// function door() {
+//     const fun = robot(1);
+//     fun();
+// }
+
+// door();
+
+function joinAt9 () {
+    console.log("got to newton join my class");
 }
 
-function door() {
-    const fun = robot(1);
-    fun();
+function joinAt4() {
+    console.log("join at 4 for extra class");
+}
+function eshita (instruction) {
+    // she will run it when she needed
+    instruction();
 }
 
-door();
+eshita(joinAt9);
