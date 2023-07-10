@@ -8,7 +8,6 @@
 
 const addTaskButton = document.querySelector("#addTaskButton");
 
-
 addTaskButton.addEventListener("click", ()=>{
     const input = document.querySelector("#taskInput");
     // alert(input.value);
